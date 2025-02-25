@@ -48,7 +48,7 @@ orders[2].creditCardType = "Visa";
 
 let productQuantityOfJoannet = orders[3].productQuantity;
 let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
-delete orders[0]
+orders.shift()
 
 console.log(isArray)
 console.log(orders[2].creditCardType)

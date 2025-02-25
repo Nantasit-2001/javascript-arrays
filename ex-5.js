@@ -23,6 +23,6 @@ const employees = [
 
 // Start coding here
 const updateEmployees = employees
-delete updateEmployees[3]
+updateEmployees.pop()
 
 console.log(employees)
