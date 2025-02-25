@@ -14,11 +14,13 @@ const employees = [
     age: 29,
     hobbies: ["Shopping", "Reading novels"],
   },
-  {
-    name: "Kody",
-    age: 19,
-    hobbies: ["Computer games", "Wakeboard"],
-  },
+  // {
+  //   name: "Kody",
+  //   age: 19,
+  //   hobbies: ["Computer games", "Wakeboard"],
+  // },
 ];
 
 // Start coding here
+
+console.log(employees);
