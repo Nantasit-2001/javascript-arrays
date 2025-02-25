@@ -20,5 +20,6 @@ const employees = [
     hobbies: ["Computer games", "Wakeboard"],
   },
 ];
-
-// Start coding here
+// console.log(employees);
+employees.pop();
+console.log(employees);
